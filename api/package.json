@@ -4,11 +4,15 @@
   "description": "rate my dog app.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Xian Lili",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
   }
 }
